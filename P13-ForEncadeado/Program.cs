@@ -26,23 +26,61 @@ namespace P13_ForEncadeado
                 Console.WriteLine();
             }
 
-            //Uma forma diferente de fazer o desenho de asteriscos
+            //Uma forma diferente de fazer o desenho de asteriscos sem usar o BREAK
 
             for (int contadorLinha = 0; contadorLinha < 10; contadorLinha++)
             {
-                for (int contadorColuna = 0; contadorColuna < 10; contadorColuna++)
-                {
-                    Console.Write("*");
-                    if (contadorColuna >= contadorLinha)
-                        break;
+                for (int contadorColuna = 0; contadorColuna <= contadorLinha; contadorColuna++)
 
+                    Console.Write("*");
+
+
+                Console.WriteLine();
+            }
+
+            //Exercício Repetição
+
+            for (int contadorLinha = 0; contadorLinha < 10; contadorLinha++)
+            {
+                for (int contadorColuna = 0; contadorColuna <= contadorLinha; contadorColuna++)
+
+                {
+                    Console.Write("a");
                 }
 
                 Console.WriteLine();
             }
 
 
-            Console.ReadLine();
+
+            int contador = 1;
+            while (contador <= 10)
+            {
+                Console.WriteLine(contador);
+                contador++;
+            }
+
+            //exercio 2
+
+            for (int linha = 0; linha < 5; linha++)
+            {
+                for (int coluna = 0; coluna < 5; coluna++)
+                {
+                    if (coluna > linha)
+                    {
+                        break;
+                    }
+                    Console.Write(coluna + 1);
+                }
+
+                Console.WriteLine();
+            }
+
+
+
+                Console.ReadLine();
+            
         }
+
     }
 }

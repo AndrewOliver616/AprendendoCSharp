@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12-CalculaInvestimentoLong
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13-ForEncadeado", "P13-ForEncadeado\P13-ForEncadeado.csproj", "{F8C69C11-1AD2-4998-A6E8-1BF8742E9ACB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14-LacosDeRepeticaoFor-TABUADA", "P14-LacosDeRepeticaoFor\P14-LacosDeRepeticaoFor-TABUADA.csproj", "{DC0A22DC-2F6E-4CC0-ABC7-20AC6D2A380B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F8C69C11-1AD2-4998-A6E8-1BF8742E9ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C69C11-1AD2-4998-A6E8-1BF8742E9ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C69C11-1AD2-4998-A6E8-1BF8742E9ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0A22DC-2F6E-4CC0-ABC7-20AC6D2A380B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0A22DC-2F6E-4CC0-ABC7-20AC6D2A380B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0A22DC-2F6E-4CC0-ABC7-20AC6D2A380B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0A22DC-2F6E-4CC0-ABC7-20AC6D2A380B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
